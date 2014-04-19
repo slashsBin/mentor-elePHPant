@@ -4,7 +4,10 @@ v1.0, 2012-01-01
 :author:    محمد شکری
 :email:     shokri.md@gmail.com
 :lang:      fa
-:toc:
+:dir:       rtl
+:direction: rtl
+:toc:       right
+:numbered:
 
 == دوره
 
@@ -20,8 +23,7 @@ IMPORTANT: تست ۳
 
 CAUTION: تست ۳
 
-=== سرفصل‌های مقدماتی
-
+.سرفصل‌های مقدماتی
 * مقدمه
 ** سلام دنیا!
 ** کلمات کلیدی
