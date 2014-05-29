@@ -1,16 +1,26 @@
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+@import url('http://fonts.googleapis.com/earlyaccess/lateef.css');
+
+.persian {
+	direction: rtl;
+	text-align: right;
+}
 
 body {
-    direction: rtl;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Droid Arabic Naskh', serif;
+    font-family: 'Lateef', serif;
+    font-size: 28px;
     background-color: #000;
     background-repeat: repeat;
     background-image: url('../img/bright_squares.png');
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
+	font-family: 'Droid Arabic Kufi', serif;
+	font-size: 28px;
+}
+
 .header,
 .marketing,
 .footer {
@@ -18,11 +28,9 @@ body {
     padding-left: 15px;
 }
 
-/* Custom page header */
 .header {
     border-bottom: 1px solid #FFF;
 }
-/* Make the masthead heading the same height as the navigation */
 .header h3 {
     padding-bottom: 19px;
     margin-top: 0;
@@ -30,61 +38,71 @@ body {
     line-height: 40px;
 }
 
-/* Custom page footer */
 .footer {
     padding-top: 19px;
     color: #777;
     border-top: 1px solid #FFF;
+    direction: rtl;
 }
 .footer a {
+	font-family: monospace;
     display: inline-block;
     direction: ltr;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
+#course .tab-pane .list-group {
+	margin-top: 40px;
+}
+
+@media (min-width: 992px) {
     .container {
-        max-width: 730px;
+        max-width: 950px;
     }
 }
 .container-narrow > hr {
     margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
+.panel {
+	background-color: rgba(255,255,255,0.4);
+}
+
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
     background-color: rgba(255,255,255,0.4);
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
 }
+.jumbotron p {
+	font-size: 36px;
+}
 .jumbotron .btn {
     padding: 14px 24px;
-    font-size: 21px;
+    font-size: 28px;
+    font-family: 'Droid Arabic Kufi', serif;
 }
 
-/* Supporting marketing content */
+table tr td {
+	background-color: #FFF;
+}
+
 .marketing {
     margin: 40px 0;
 }
-.marketing p + h4 {
-    margin-top: 28px;
+.marketing p {
+	text-align: justify;
 }
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-    /* Remove the padding we set earlier */
     .header,
     .marketing,
     .footer {
         padding-right: 0;
         padding-left: 0;
     }
-    /* Space out the masthead */
     .header {
         margin-bottom: 30px;
     }
-    /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
     }
