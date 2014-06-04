@@ -25,6 +25,13 @@ h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
 	font-size: 22px;
 }
 
+.glyphicon {
+	top: 8px;
+}
+.panel-title .glyphicon {
+	top: 2px;
+}
+
 .header,
 .marketing,
 .footer {
