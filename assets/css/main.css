@@ -21,6 +21,11 @@ h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
 	font-size: 28px;
 }
 
+code {
+	color: inherit;
+	background-color: inherit;
+}
+
 .tooltip {
 	font-size: 22px;
 }
