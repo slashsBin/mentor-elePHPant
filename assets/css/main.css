@@ -1,5 +1,39 @@
-@import url('//fonts.googleapis.com/earlyaccess/droidarabickufi.css');
-@import url('//fonts.googleapis.com/earlyaccess/lateef.css');
+/*
+ * Droid Arabic Kufi (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+}
+/*
+ * Lateef (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/lateef/v5/LateefRegOT.eot);
+  src: url(//fonts.gstatic.com/ea/lateef/v5/LateefRegOT.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/lateef/v5/LateefRegOT.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/lateef/v5/LateefRegOT.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/lateef/v5/LateefRegOT.ttf) format('truetype');
+}
 
 .persian {
 	direction: rtl;
@@ -17,6 +51,7 @@ body {
 
 h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
 	font-family: 'Droid Arabic Kufi', serif;
+        direction: rtl;
 }
 
 code {
